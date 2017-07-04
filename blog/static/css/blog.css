@@ -1,17 +1,22 @@
+
+	body {
+		background: #cccccc;
+	}
+  
 	.page-header {
-        background-color: #ff9400;
+        background-color: #890043;
         margin-top: 0;
-        padding: 20px 20px 20px 40px;
+        padding: 20px 20px 20px 70px;
     }
 
     .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-        color: #ffffff;
+        color: #f2def2;
         font-size: 36pt;
         text-decoration: none;
     }
 
     .content {
-        margin-left: 40px;
+        margin-left: 70px;
     }
 
     h1, h2, h3, h4 {
@@ -32,16 +37,44 @@
     }
 
     .top-menu, .top-menu:hover, .top-menu:visited {
-        color: #ffffff;
+        color: #f2def2;
         float: right;
         font-size: 26pt;
         margin-right: 20px;
     }
 
     .post {
-        margin-bottom: 70px;
+		color: #4f4e4f;
+        margin-bottom: 50px;
+		background: #e0e0e0; 
+		border: 1.5px outset #e0e0e0;
+		height: 252px;
+		min-height: 160px;
+		padding: 15px;
+		overflow: hidden;
+		text-overflow: ellipsis; 
+		
     }
 
+	.post_post {
+		color: #4f4e4f;
+        margin-bottom: 50px;
+		background: #e0e0e0; 
+		border: 1.5px outset #e0e0e0;
+		height: 252px;
+		height: auto;
+		padding: 15px;
+		
+    }
+	
     .post h1 a, .post h1 a:visited {
         color: #000000;
     }
+	
+	@media screen and (max-width: 720px) {
+		.post, .post_post p{
+		padding-left: 20px;
+		padding-right: 20px;
+		}
+	}
+	
