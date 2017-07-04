@@ -7,11 +7,15 @@
                     {{ post.published_date }}
                 </div>
             {% endif %}
-			
-			
-			
             <a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>
-            <h1>{{ post.title }}</h1>
+			<h1>{{ post.title }}</h1>
             <p>{{ post.text|linebreaksbr }}</p>
-        </div>
+			
+			
+			
+			<iframe width="100%" height="70%" src="https://www.youtube.com/embed/ekuFdVgdURM" frameborder="0" allowfullscreen></iframe>
+
+			
+ 
+		</div>
     {% endblock %}
